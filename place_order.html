@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Myntra Clone</title>
+    <link rel="webiste icon"  type="icon" href="myntra_icon.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bag.css">
+    <link rel="stylesheet" href="place_order.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="myntra_home" src="myntra_logo.jpg" alt="Myntra Home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio <sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+                <span class="bag-items">0</span>
+            </div>
+        </div>
+    </header>
+        <main class="main-container">
+            <h3 class="ppm">Payment Method</h3>
+            <div class="radio"><input type="radio">&nbsp;&nbsp;HOME/OFFICE ADDRESS</div><br><br>
+            <!-- first name -->
+            <div class="first-name">First Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"></div><br>
+
+            <!-- last name -->
+            <div class="last-name">last Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="last-name"></div><br>
+
+            <!-- Addresss -->
+            <div class="address-name">Address : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address-name"></div>
+            <p class="par">Correct Address fill up</p><br>
+
+            <!--city  -->
+            <div class="city-name">City : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address-name"></div><br>
+
+            <!-- state -->
+             <div class="state-name">State : 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="" id="">
+                    <option value="gujarat">Gujarat</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="madhya pradesh">Madhya Pradesh</option>
+                    <option value="uttar pradesh">Uttar Pradesh</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="andhra pradesh">Andhra Pradesh</option>
+                    <option value="arunachal pradesh ">Arunachal Pradesh </option>
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chhattisgarh">Chhattisgarh</option>
+                    <option value="goa">Goa</option>
+                </select>
+             </div><br>
+             <!-- PIN code -->
+              <div class="pin-code">PIN Code:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="int">
+              </div><br><br>
+
+             <!-- Select shipping method -->
+             <div class="s-s-m">
+                <h2>Select Shipping Method</h2><br>
+                <div class="radio-btn"><input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard (Arrives 2-4 Days) ₹40</div>
+                <div class="radio-btn"><input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two-Day (Arrives 2-3 Days) ₹100</div>
+                <div class="radio-btn"><input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next Day (Arrives 1-2 Days) ₹200</div>
+             </div><br>
+             <div class="btn">
+                <a href="order_confirm.html">Order Confirm</a>
+             </div>
+    
+             <div class="speration"></div><br>
+
+             <!-- join nike advertisment -->
+             <div class="join-nike">
+                <input type="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;join nike+ for free ground   shipping and no-habble return (save ₹0.00 today)
+             </div>
+
+             <!-- already member -->
+              <div class="already-member">
+                Already Member ? <a href="#">Sign in</a>
+              </div><br>
+
+              <!-- Email -->
+              <div class="email">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email">
+              </div><br>
+
+              <!-- Password -->
+              <div class="password">Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password">
+              </div><br>
+              
+              <!-- Birth of date -->
+              <div class="bday-date">Date of Birth
+                <input type="date">
+              </div><br>
+
+              <!-- gender -->
+              <div class="gender">Gender :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;
+                <input type="radio">Male&nbsp;<input type="radio">Female
+              </div>
+
+              <!-- Intruction -->
+              <div class="offer">
+                <input type="checkbox">Sign up and get special and offers from nike family including <br>jordan converse and murley
+              </div>
+        </main>
+        <hr>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            © 2023 www.myntra.com. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+.ppm {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: brown;
+}
+
+.main-container {
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.main-container .radio {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.first-name {
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.first-name input {
+    font-size: 1rem;
+    height: 35px;
+}
+
+.last-name {
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.last-name input {
+    font-size: 1rem;
+    height: 35px;
+}
+
+.address-name {
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.address-name input {
+    font-size: 1rem;
+    height: 35px;
+}
+
+.par {
+    margin-left: 13.5%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.city-name {
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.city-name input {
+    font-size: 1rem;
+    height: 35px;
+}
+
+.state-name {
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.state-name select {
+    width: 170px;
+    font-size: 1rem;
+    height: 35px;
+}
+
+.pin-code {
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.pin-code input {
+    font-size: 1rem;
+    height: 35px;
+}
+
+.s-s-m {
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.s-s-m input {
+    font-family: Arial;
+    font-size: 1rem;
+}
+.btn{
+    height:30px;
+    width : 120px;
+    background-color: brown;
+    margin-bottom: 10px;
+    padding : 3px;
+}
+.btn a{
+    color :white;
+    text-decoration: none;
+}
+
+.speration {
+    width: 100%;
+    height: 30px;
+    background-color: #ddd;
+}
+
+.speration:hover {
+    background-color: #ccc;
+}
+
+.join-nike {
+    font-size: 1.3rem;
+}
+
+.already-member{
+    margin-top : 10px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.already-member a{
+    color:blue;
+}
+.already-member a:hover{
+    text-decoration: none;
+}
+
+.email {
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.email input {
+    font-family: Arial;
+    font-size: 1rem;
+    height: 35px;
+}
+.password {
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.password input {
+    font-family: Arial;
+    font-size: 1rem;
+    height: 35px;
+}
+
+.bday-date{
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.bday-date input{
+    font-family: Arial;
+    font-size: 1rem;
+    height: 35px;
+    width : 190px;
+    margin-left : 38px;    
+}
+
+.gender{
+    font-family: Arial;
+    font-weight: 800;
+}
+.gender input{
+    font-size: 16px;
+    
+    font-weight: 500;
+}
